@@ -1,0 +1,13 @@
+/* Bailey Walden */
+
+ul {margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 15px;}
+
+ul li {list-style-type: none;
+       margin-left: 0;
+       padding-left: 0;}
+
+ul li a {text-decoration: none;
+         margin-left: 0;
+         padding-left: 0;}

@@ -1,0 +1,31 @@
+/* Bailey Walden */
+
+body {
+    font-size: 7pt;
+    line-height: 1.2;
+    display: flex;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+}
+
+main, main * {
+    display: block;
+    visibility: visible;
+    background: none;
+    width: 100%;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+    page-break-before: avoid;
+}
+
+h1 {
+    font-family: sans-serif !important;
+}
+
+header, nav, audio, h5, aside, footer {
+    display: none
+}
+
+
+

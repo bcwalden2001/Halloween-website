@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- Bailey Walden-->
+<html lang="en">
+
+ <head>
+	<meta charset="utf-8">
+	<title>Halloween Store</title>
+	<link rel="icon" href="../images/favicon.ico">
+	<link rel="stylesheet" href="../styles/main_rwd.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		table {
+			width: 80%;
+		}
+
+		caption {
+			font-size: 150%;
+			font-weight: bold;
+		}
+
+		td, th {
+			padding-bottom: .5rem;
+		}
+
+		thead th:first-child, 
+		thead th:nth-child(2),
+		tbody th {
+			text-align: left;
+			vertical-align: top;
+		}
+
+		thead th:last-child {
+			text-align: right;
+		}
+
+		tbody tr td:nth-child(2) {
+			text-align: right;
+			background-color: #F5DEB3;
+		}
+
+		tbody tr td:nth-last-child(2) {
+			padding-right: 1.5rem;
+		}
+
+		@media screen and (max-width: 640px){
+			table {
+				width: 100%;
+				padding: 0 5%;
+			}
+			thead th{
+				display: none;
+			}
+			thead th:first-child {
+				flex-basis: 100%;
+			}
+			tbody tr td:nth-child(2) {
+				background-color: white;
+			}
+			tr {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+			tbody tr:first-child,
+			tbody tr:nth-child(7),
+			tbody tr:nth-child(11),
+			tbody tr:nth-child(14) {
+				background-color: rgba(0, 128, 0, 10%);
+			}
+		}
+
+	</style>
+ </head>
+
+ <body>
+	<header> 
+		<img src="../images/pumpkin.gif" alt="Pumpkin Image">
+		<h2> The Halloween Store </h2>
+		<h3> For the little goblin in all of us </h3>
+	</header>
+	<nav>
+		<ul>		
+			<li> <a href="../index.html">Home</a></li>
+			<li> 
+				<a href="#" id="current">Products ▼</a>
+				<ul>
+					<li><a href="props/index.html">Props</a></li>
+					<li><a href="costumes/index.html">Costumes</a></li>
+					<li><a href="special/index.html">Special Effects</a></li>
+					<li><a href="masks/index.html">Masks</a></li>
+				</ul>
+			</li>
+			<li> 
+				<a href="../personal/index.html">Personal</a>
+				<ul>
+					<li><a href="../personal/pictures/index.html">Pictures</a></li>
+					<li><a href="../personal/videos/index.html">Videos</a></li>
+					<li><a href="../personal/haunted/index.html">Haunted Houses</a></li>
+					<li><a href="../personal/stories/index.html">Scary Stories</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="../decorations/index.html">Decorating Ideas ▼</a>
+				<ul>
+					<li><a href="../decorations/indoor/index.html">Indoor</a></li>
+					<li><a href="../decorations/outdoor/index.html">Outdoor</a></li>
+					<li><a href="../decorations/table/index.html">Tables</a></li>
+					<li><a href="../decorations/treats/index.html">Treats</a></li>
+				</ul>
+			</li> 
+			<li><a href="../email/index.html">Join Email</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section>
+			<aside>
+				<h3>My guarantee</h3>
+				<p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <strong>No questions asked!</strong></p>
+			</aside>
+		</section>
+		<section>
+			<table>
+				<caption>
+					Product List
+				</caption>
+				<thead>
+					<tr>
+						<th>Category</th>
+						<th>Description</th>
+						<th>Price</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!--Props-->
+					<tr>
+						<th rowspan="6"><a href="props/index.html">Props</a></th>
+					</tr>
+
+					<tr>
+						<td>20" Scary Cat</td>
+						<td>$19.99</td>
+					</tr>
+						
+					<tr>
+						<td>Flying Bats</td>
+						<td>$14.99</td>
+					</tr>
+
+					<tr>
+						<td>16" Ugly Rat</td>
+						<td>$14.99</td>
+					</tr>
+					
+					<tr>
+						<td>20" Uglier Rat</td>
+						<td>$19.99</td>
+					</tr>
+
+					<tr>
+						<td>Plastic Skeleton</td>
+						<td>$22.50</td>
+					</tr>
+
+					<!--Costumes-->
+					<tr>
+						<th rowspan="4"><a href="costumes/index.html">Costumes</a></th>
+					</tr>
+
+					<tr>
+						<td>Austin Powers</td>
+						<td>$79.50</td>
+					</tr>
+
+					<tr>
+						<td>Frankenstein</td>
+						<td>$79.99</td>
+					</tr>
+
+					<tr>
+						<td>Martian</td>
+						<td>$69.99</td>
+					</tr>
+
+					<!--Special Effects-->
+					<tr>
+						<th rowspan="3"><a href="special/index.html">Special Effects</a></th>
+					</tr>
+
+					<tr>
+						<td>Fog Machine</td>
+						<td>$34.99</td>
+					</tr>
+
+					<tr>
+						<td>Mini Strobe Light</td>
+						<td>$14.99</td>
+					</tr>
+
+					<!--Masks-->
+					<tr>
+						<th rowspan="3"><a href="masks/index.html">Masks</a></th>
+					</tr>
+
+					<tr>
+						<td>Freddy</td>
+						<td>$44.50</td>
+					</tr>
+						
+					<tr>
+						<td>Darth Vader</td>
+						<td>$124.50</td>
+					</tr>
+					
+
+				</tbody>
+			</table>
+		</section>
+	</main>
+	<footer> 
+		&copy; 2025 Ben Murach
+	</footer>
+ </body>
+</html>
