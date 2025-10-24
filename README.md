@@ -1,4 +1,4 @@
-#Hosting the website locally:
+# Hosting the website locally:
 
 1) Open a new tab in any popular browser
    
