@@ -2,4 +2,4 @@
 
 1) Open a new tab in a browser
    
-2) Open the root index file in the folder using Ctrl+O on Windows or Cmd+O on Mac
+2) Use Ctrl+O on Windows or Cmd+O on Mac in the new tab and open the main index file in the root directory
