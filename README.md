@@ -1,6 +1,6 @@
 This website was built piece-by-piece throughout my client-side web development course. 
 
-## To run the website locally:
+## To see the website:
 
   - Open the root index.html folder in any modern browser
 
